@@ -1,0 +1,42 @@
+.section_one{
+  padding-top: 6.5em;
+  padding-bottom: 8.5em;
+}
+
+.section_two{
+  padding-top: 2.5em;
+  background-color: #f5f5f5;
+  padding-bottom: 0em;
+}
+
+.section_three{
+  padding-top: 1.5em;
+  background-color: #f5f5f5;
+  padding-bottom: 1.5em;
+}
+
+.section_four{
+  padding-top: 2.5em;
+  background-color: #f5f5f5;
+  padding-bottom: 2.5em;
+}
+
+.section_five{
+  padding-top: 3.5em;
+  background-color: #fff;
+  padding-bottom: 2.5em;
+}
+
+.section_subheader{
+  padding-top: 4.5em;
+  background-color: #eee;
+  padding-bottom: 3.5em;
+}
+
+.height_card{
+  height: 60px;
+}
+
+.card_containers:hover{
+  background: #fcfcfc;
+}
