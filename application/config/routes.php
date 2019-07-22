@@ -70,6 +70,8 @@ $route['support'] = 'dashpage/support';
 // admin
 $route['dashboardadmin'] = 'adminpage';
 $route['usersadmin'] = 'adminpage/users';
+$route['catalogadmin'] = 'adminpage/catalog';
+$route['supportadmin'] = 'adminpage/support';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

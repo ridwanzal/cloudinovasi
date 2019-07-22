@@ -28,6 +28,26 @@ class Adminpage extends CI_Controller {
     $this->load->view('admin/adminfooter', $data);
   }
 
+  public function catalog(){
+    $data['title_bar'] = "Block Storage Settings | Admin - Cloud Inovasi";
+    $data['header_page'] = "";
+    $data['sub_header_page'] = "Block Storage Settings";  
+    $this->load->view('admin/adminheader', $data);
+    $this->load->view('admin/adminnavbar', $data);
+    $this->load->view('admin/admincontent_catalog', $data);
+    $this->load->view('admin/adminfooter', $data);
+  }
+
+  public function support(){
+    $data['title_bar'] = "Supports | Admin - Cloud Inovasi";
+    $data['header_page'] = "";
+    $data['sub_header_page'] = "Supports";  
+    $this->load->view('admin/adminheader', $data);
+    $this->load->view('admin/adminnavbar', $data);
+    $this->load->view('admin/admincontent_support', $data);
+    $this->load->view('admin/adminfooter', $data);
+  }
+
  
 }
 

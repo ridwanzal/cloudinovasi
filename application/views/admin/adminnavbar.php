@@ -37,13 +37,19 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<? echo base_url()?>adminpage">
-                <span data-feather="users"></span>
+              <a class="nav-link" href="<? echo base_url()?>catalogadmin">
+                <span data-feather="box"></span>
+                Virtual Compute
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<? echo base_url()?>catalogadmin">
+                <span data-feather="box"></span>
                 Block Storage
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<? echo base_url()?>adminpage">
+              <a class="nav-link" href="<? echo base_url()?>supportadmin">
                 <span data-feather="umbrella"></span>
                 Admin Support
               </a>

@@ -16,56 +16,28 @@
         <!-- <canvas class="my-4" id="myChart" width="900" height="380"></canvas> -->
         
         <div class="row">
-          <div class="col-md-2">
-            <div class="card card-content-hover">
-              <div class="card-body">
-                  <h6 class="card-title">Virtual Comp</h6>
-                  <span data-feather="box"></span>         
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card card-content-hover">
-              <div class="card-body">
-                <h6 class="card-title">Object Storage</h6>
-                <span data-feather="box"></span>       
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card card-content-hover">
-              <div class="card-body">
-                <h6 class="card-title">Block Storage</h6>
-                <span data-feather="box"></span>       
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card card-content-hover">
-              <div class="card-body">
-                <h6 class="card-title">Network</h6>
-                <span data-feather="box"></span>       
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="card card-content-hover">
-              <div class="card-body">
-                <h6 class="card-title">Plesk Bundle</h6>
-                <span data-feather="box"></span>       
-              </div>
-            </div>
-          </div>
-        </div>
-        <br/>
-        <div class="row">
           <div class="col-md-12">
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link active" href="#infra" role="tab" data-toggle="tab">Infrastructure</a>
+                <a class="nav-link active" href="#infra" role="tab" data-toggle="tab">Summary</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#other" role="tab" data-toggle="tab">Other Services</a>
+                <a class="nav-link" href="#other" role="tab" data-toggle="tab">Volume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#other" role="tab" data-toggle="tab">Networking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#other" role="tab" data-toggle="tab">Resize</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#other" role="tab" data-toggle="tab">Rescue</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#other" role="tab" data-toggle="tab">Rebuild</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#other" role="tab" data-toggle="tab">Backup Settings</a>
               </li>
             </ul>
           </div>
@@ -77,11 +49,11 @@
         <div role="tabpanel" class="tab-pane active" id="infra">
               <br/>
               <div class="row">
-                <div class="col-lg-8 col-md-8 col-xs-12">
-                  <button type="button" class="btn btn-primary btn-sm btn-dark">Manage Network</button>
-                </div>
                 <div class="col-lg-4 col-md-4 col-xs-12">
                     <input type="text" class="form-control  form-control-sm" id="serarch" placeholder="Search">
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-12 float-right">
+                    <button class="btn btn-sm btn-outline-secondary">Create a volume</button>
                 </div>
               </div>
               <div>
