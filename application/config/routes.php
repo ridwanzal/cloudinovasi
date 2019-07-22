@@ -66,5 +66,10 @@ $route['catalog'] = 'dashpage/catalog';
 $route['service'] = 'dashpage/service';
 $route['billing'] = 'dashpage/billing';
 $route['support'] = 'dashpage/support';
+
+// admin
+$route['dashboardadmin'] = 'adminpage';
+$route['usersadmin'] = 'adminpage/users';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
