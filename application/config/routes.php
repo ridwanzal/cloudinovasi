@@ -72,6 +72,7 @@ $route['dashboardadmin'] = 'adminpage';
 $route['usersadmin'] = 'adminpage/users';
 $route['catalogadmin'] = 'adminpage/catalog';
 $route['supportadmin'] = 'adminpage/support';
+$route['computeadmin'] = 'adminpage/compute';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

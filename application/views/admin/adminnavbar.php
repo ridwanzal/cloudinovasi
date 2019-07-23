@@ -11,7 +11,7 @@
     </ul>
     <div class="dropdown px-3">
       <button type="button" class="btn btn-sm btn-outline-light dropdown-toggle" data-toggle="dropdown">
-        Welcome Ridwan ...
+        Welcome Admin ...
       </button>
       <div class="dropdown-menu">
         <a class="dropdown-item small" href="<?php echo base_url() ?>"><span data-feather="log-out"></span>&nbsp;&nbsp;Log out</a>
@@ -37,7 +37,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<? echo base_url()?>catalogadmin">
+              <a class="nav-link" href="<? echo base_url()?>computeadmin">
                 <span data-feather="box"></span>
                 Virtual Compute
               </a>

@@ -17,11 +17,10 @@ class Adminpage extends CI_Controller {
     $this->load->view('admin/adminfooter', $data);
   }
 
-
   public function users(){
     $data['title_bar'] = "User Management | Admin - Cloud Inovasi";
     $data['header_page'] = "";
-    $data['sub_header_page'] = "User Management Admin";  
+    $data['sub_header_page'] = "User Management";  
     $this->load->view('admin/adminheader', $data);
     $this->load->view('admin/adminnavbar', $data);
     $this->load->view('admin/admincontent_users', $data);
@@ -35,6 +34,16 @@ class Adminpage extends CI_Controller {
     $this->load->view('admin/adminheader', $data);
     $this->load->view('admin/adminnavbar', $data);
     $this->load->view('admin/admincontent_catalog', $data);
+    $this->load->view('admin/adminfooter', $data);
+  }
+
+  public function compute(){
+    $data['title_bar'] = "Virtual Compute | Admin - Cloud Inovasi";
+    $data['header_page'] = "";
+    $data['sub_header_page'] = "Virtual Compute";  
+    $this->load->view('admin/adminheader', $data);
+    $this->load->view('admin/adminnavbar', $data);
+    $this->load->view('admin/admincontent_compute', $data);
     $this->load->view('admin/adminfooter', $data);
   }
 
