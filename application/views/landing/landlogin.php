@@ -23,13 +23,6 @@
                           </div> <!-- form-group// -->                                                         
                         </form>
                       </div>
-                      <div class="col-lg-6 col-md-6">
-                        <form method="GET" action="<?php echo base_url() ?>adminpage">
-                          <div class="form-group">
-                              <button class="btn btn-primary btn-block btn-dark"> Sign In Admin</button>
-                          </div> <!-- form-group// -->    
-                        </form>
-                      </div>
                   </div>
                   <p class="font-weight-lighter">Not a member ? <a href="<?php echo base_url() ?>">Sign Up Now.</a></p>
             </article>
