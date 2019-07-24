@@ -16,7 +16,7 @@
                   <div class="form-group"> 
                   </div> <!-- form-group// -->  
                   <div class="row">
-                      <div class="col-lg-6 col-md-6">
+                      <div class="col-lg-12 col-md-12">
                         <form method="GET" action="<?php echo base_url() ?>dashboard">
                           <div class="form-group">
                               <button class="btn btn-primary btn-block btn-dark"> Sign In</button>
