@@ -48,6 +48,8 @@
                       <th>Alamat</th>
                       <th>Last Login</th>
                       <th>Status</th>
+                      <th>V. Compute</th>
+                      <th>Jumlah Tagihan</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -59,6 +61,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>Jane Doe</td>
@@ -68,6 +72,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>John Doe</td>
@@ -77,6 +83,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>John Doe</td>
@@ -86,6 +94,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>John Doe</td>
@@ -95,6 +105,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>John Doe</td>
@@ -104,6 +116,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>Jane Doe</td>
@@ -113,6 +127,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>John Doe</td>
@@ -122,6 +138,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>John Doe</td>
@@ -131,6 +149,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>John Doe</td>
@@ -140,6 +160,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                     <tr>
                       <td>John Doe</td>
@@ -149,6 +171,8 @@
                       <td>Backer Street</td>
                       <td>2019-08-22 08:02</td>
                       <td>Aktif</td>
+                      <td>CI-VC 1</td>
+                      <td>RP. 150.000</td>
                     </tr>
                   </tbody>
                 </table>
